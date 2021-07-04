@@ -18,7 +18,7 @@ minimal_mistakes_skin    : "sunrise" # "air", "aqua", "contrast", "dark", "dirt"
 locale                   : "en-US"
 title                    : "bogedy"
 title_separator          : "-"
-subtitle                 : # site tagline that appears below site title in masthead
+subtitle                 : "research and thoughts"
 name                     : "Isaiah Kriegman"
 description              : "investigations and thoughts"
 url                      : "https://bogedy.github.io"
@@ -28,7 +28,7 @@ teaser                   : # path of fallback teaser image, e.g. "/assets/images
 logo                     : # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
 masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
 # breadcrumbs            : false # true, false (default)
-words_per_minute         : 200
+words_per_minute         : 225
 comments:
   provider               : # false (default), "disqus", "discourse", "facebook", "staticman", "staticman_v2", "utterances", "custom"
   disqus:
@@ -96,7 +96,7 @@ analytics:
 author:
   name             : "isaiah k 柯睿孟"
   avatar           : "/assets/images/blog-logo.png" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "research and thoughts"
+  bio              : "studying stats/china"
   location         : "boston"
   email            : "isaiahkriegman@gmail.com"
   links:
@@ -226,6 +226,7 @@ plugins:
   - jekyll-gist
   - jekyll-feed
   - jekyll-include-cache
+  - jekyll-target-blank
 
 # mimic GitHub Pages with --safe
 whitelist:
