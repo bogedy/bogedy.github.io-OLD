@@ -1,5 +1,5 @@
 ---
-title: "The Health Insurance and the $460 Light Bulb"
+title: "Health Insurance and the $460 Light Bulb"
 tags: [society, economics, policy, healthcare]
 #permalink: /posts/modeling/
 excerpt: "Health insurance is a stupid scam and should be abolished."
