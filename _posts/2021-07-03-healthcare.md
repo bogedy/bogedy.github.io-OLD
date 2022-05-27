@@ -1,5 +1,5 @@
 ---
-title: "Health Insurance and the $460 Light Bulb"
+title: "Health Insurance and the <span>$</span>460 Light Bulb"
 tags: [society, economics, policy, healthcare]
 #permalink: /posts/modeling/
 excerpt: "Health insurance is a stupid scam and should be abolished."
@@ -45,7 +45,7 @@ This means that literally EVERY operation you might want to do on your home is c
 The role of your primary care electrician is to diagnose your electrical problems and write a prescription. He’s partnered with your homeowner’s insurance network and they trust him to not waste _their_ money (your money is conspicuously not a concern). He’s a very intelligent man who attended an extremely competitive electricians school for four years so he could pursue his dream of being an electrician. For his hard work and competitive edge, he demands hefty fees.
 
 
-You show him the broken light bulb. He examines it under a magnifying glass and says “Yup, the filament is definitely broken. This kind of electrical injury is common and simple to cure.” He writes you a prescription for a new light bulb and instructs you to screw it into the empty socket when you get home. You say thanks and leave. The whole visit lasted 20 minutes and cost $400, which you won’t find out about until a bill shows up in the mail in a month. You’re asked to pay a $25 copay.
+You show him the broken light bulb. He examines it under a magnifying glass and says “Yup, the filament is definitely broken. This kind of electrical injury is common and simple to cure.” He writes you a prescription for a new light bulb and instructs you to screw it into the empty socket when you get home. You say thanks and leave. The whole visit lasted 20 minutes and cost <span>$</span>400, which you won’t find out about until a bill shows up in the mail in a month. You’re asked to pay a <span>$</span>25 copay.
 
 
 As you head out you tell the receptionist you want the prescription filled out at Lowe’s. You get in your car and turn on the radio. You listen to an NPR story about how smugglers are bringing light bulbs over the Mexican border. They’re the same exact light bulbs, they’re just cheaper in Mexico for some reason. They bring up that progressives in the Senate are pushing for a new _HomeCare For All_ bill. You scratch your head, confused about how politics and economics work.
@@ -57,13 +57,13 @@ You get to Lowe’s. Instead of aisles of tools and appliances, the Lowe’s is 
 She hands you a light bulb from behind the counter in nondescript packaging. You don’t have any choice in selecting a light bulb, it just says Lowe’s on the package. You know that the light bulb was manufactured by one of the big Electric Manufacturing companies in Europe. They hold a special patent for making these light bulbs in the US, even though they’re the same as the ones in Mexico and India. You recall that the big EM companies are huge and donate millions of dollars to congressional candidates every year. You feel slightly disgruntled by this and shrug it off.
 
 
-The light bulb costs $35. You are charged $5 and the rest is charged to your insurance.
+The light bulb costs <span>$</span>35. You are charged <span>$</span>5 and the rest is charged to your insurance.
 
 
 You get home and install the light bulb according to your electrician’s instructions. It works properly, and you feel good that you crossed something off your checklist. 
 
 
-Months later, after all the bills have been received and paid, your total expenditure is about $460, and that’s ignoring premiums. You relax, breathe a deep sigh and marvel at the wondrous functions of human society.
+Months later, after all the bills have been received and paid, your total expenditure is about <span>$</span>460, and that’s ignoring premiums. You relax, breathe a deep sigh and marvel at the wondrous functions of human society.
 
 ____________________________________________________
 
@@ -81,7 +81,7 @@ Despite the pejorative taglines from progressive politicians, the current system
 
 Ronald Reagan left his impact on the industry too when he signed a bill forcing hospitals to take anyone in for emergency treatment no matter what. The costs were to be eaten by the nebulous health insurance monster, and they are still today. Hospitals across California have been shutting down for decades due to financial strains from [serving the uninsured](https://www.latimes.com/archives/la-xpm-2004-sep-24-me-hospital24-story.html). They go under, get bailed out by taxpayers, or the government mandates that insurers cover it, thus passing the costs onto everyone with inurance. The monster grows, not just in cost but in reliance as a crutch for the government.
 
-Just the same way that a $2 light bulb becomes a $460 light bulb, a simple visit to get your shoulder checked out has become a billion dollar monster of an industry where unions, politicians and faceless bureaucracies reach in to take their cut of the profits and social justice glory, leaving reason behind in the dust like a distant memory.
+Just the same way that a <span>$</span>2 light bulb becomes a <span>$</span>460 light bulb, a simple visit to get your shoulder checked out has become a billion dollar monster of an industry where unions, politicians and faceless bureaucracies reach in to take their cut of the profits and social justice glory, leaving reason behind in the dust like a distant memory.
 
 Fortunately our society still has some slim recollection of that memory. Economist Thomas Sowell’s (born 1930) [account](https://www.creators.com/read/thomas-sowell/09/07/no-health-care) is illustrative of the changes to the healthcare industry:
 
@@ -94,7 +94,7 @@ How did I manage? The same way everybody else managed: I went to doctors and I p
 <br><br>
 This was all before politicians gave us the idea that the things we could not afford individually we could somehow afford collectively through the magic of government.
 <br><br>
-When my jaw was broken, I was treated in an emergency room and was given a bill for $50 — which was like a king's ransom to me at the time, 1949. But I paid it off in installments over a period of months.
+When my jaw was broken, I was treated in an emergency room and was given a bill for <span>$</span>50 — which was like a king's ransom to me at the time, 1949. But I paid it off in installments over a period of months.
 
 (He leaves out that during his teen years he was homeless and working in a machine shop).
 
