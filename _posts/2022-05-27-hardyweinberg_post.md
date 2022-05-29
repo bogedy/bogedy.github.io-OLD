@@ -40,10 +40,13 @@ We'd like to esitmate likely values of $f$ and $r$ by observing a sample from th
 observe counts of genotypes $X = (n_{AA}, n_{Aa}, n_{aa})$. We want to find the joint posterior distribution $p(f,r | X)$.
 
 There is no closed form expression of this posterior distribution for any $x$. We could plug in a specific $x$ and find the maximum likelihood point estimate of $f, r$ by optimizing the likelihood function
+
 $$ L(f,r;x) = p(x|f,r) = p(AA)^{n_{AA}}p(Aa)^{n_{Aa}}p(aa)^{n_{aa}}$$
+
 but this is a less useful solution than what we can get with MCMC, as we'll see in a minute. Also, analytical methods fail when dealing with more than two alleles ([more info](https://www.nature.com/articles/6883600#Sec2)).
 
 And we can't describe the whole posterior distribution either, because the denominator is a really difficult integral:
+
 $$p(f,r | X) = \frac{p(x|f,r)p(f,r)}{p(x)} = \frac{p(x|f,r)p(f,r)}{\int{p(x|f,r)p(f,r) dfdr}}$$
 
 How can we describe the posterior distribution if we can't write down the posterior? With MCMC, we can sample from it without knowing it completely.
@@ -58,6 +61,7 @@ Each step in the Markov Chain starts with a proposal value of $(f,r)$. We accept
 (In the limit, this Markov Chain *is* the posterior distribution. See [my thesis](https://github.com/bogedy/mcmc_thesis/blob/master/thesisIsaiahKriegman2020Final.pdf) for a summary of why this is true!)
 
 We sample $(f,r)$ from a prior distribution and at each step $t$ we calculate the ratio
+
 $$R=\frac{L(f_{t}, r_{t};x)}{L(f_{t-1}, r_{t-1};x)}.$$
 
 Let's say that we observe $x=(50, 21, 29)$. Let's look at how we might sample from the posterior:
@@ -156,7 +160,7 @@ plt.show()
     
 
 
-Here we samples from the posterior distributions of $f$ and $r$. The HDI is just a "high density interval where 94% of the data lies. There is not one unique HDI. Below I show a histogram of their joint distribution. 
+Here we samples from the posterior distributions of $f$ and $r$. The HDI is just a "high density interval" where 94% of the data lies. There is not one unique HDI. Below I show a histogram of their joint distribution. 
 
 (Why does it show the 94% HDI instead of 95%? The authors of this graphics package said it's to [keep you on your toes](https://arviz-devs.github.io/arviz/getting_started/Introduction.html#arviz-rcparams).)
 
@@ -279,7 +283,7 @@ $$p(z)=f$$
 
 $$p(z|\text{Aa})=0$$
 
-$$p(z|\text{AA}) = \frac{p(\text{AA}|z)p(z)}{p(\text{AA})} = \frac{p(\text{AA}|z)p(z)}{p(\text{AA|z})+p(\text{AA|~z})} = \frac{rf}{rf+r^2 (1-f)}$$
+$$p(z|\text{AA}) = \frac{p(\text{AA}|z)p(z)}{p(\text{AA})} = \frac{p(\text{AA}|z)p(z)}{p(\text{AA|z})p(z)+p(\text{AA|~z})p(\sim z)} = \frac{rf}{rf+r^2 (1-f)}$$
 
 etc.
 
@@ -358,7 +362,7 @@ plt.show()
     
 
 
-## But, are the samples any good?
+## But are the samples any good?
 
 In the limit, MCMC samples are samples from the true distribution. But our finite sample is just an estimate. We also want to quantify the quality of our estimate. 
 
@@ -378,7 +382,9 @@ plt.show()
 
 
 In this example the autocorrelation becomes negligible after about 15 or so lags. We can use this autocorrelation function to get our *effective sample size*:
+
 $$ESS = N \left / \left(1+2\sum_{k=1}^{\infty}ACF(k)\right) \right.$$
+
 (This definition comes from [Doing Bayesian Data Analysis](https://jkkweb.sitehost.iu.edu/DoingBayesianDataAnalysis/), ArViz uses a [different expression](https://arviz-devs.github.io/arviz/api/generated/arviz.ess.html).)
 
 
