@@ -31,6 +31,16 @@ Conversion notes:
 * Source doc: health insurance
 ----->
 
+## EDIT
+
+The subtitle of this post is inaccurate. I failed to distinguish between two things that often go by the same name:
+- *Health insurance* is coverage in case of a emergency incident where you need expensive treatments to save your life. Also sometimes called *catastrophic health insurance*. 
+- *Healthcare plans* are coverage for all kinds of treatments for non-life threatening issues, like needing a nearly checkup or getting physical therapy.
+
+I think healthcare plans are a stupid scam and fewer people should have them. Catastrophic health insureance plans are great, and it's a shame the Obamacare basically [banned](https://obamacarefacts.com/health-insurance/catastrophic-plans/) most people from enrolling in them in favor getting more people signed up for healthcare plans.
+
+---
+
 
 I recently turned old enough to age out of my local pediatrician’s office and have had to shop for a new primary care physician. I’ve only had to deal with the adult world of health insurance without my parents for a few interactions but something I’ve long been suspicious of is hitting me like a ton of bricks: **health insurance is a stupid scam and should be abolished.**
 
@@ -75,7 +85,7 @@ Less known are the ways this system is gamed to literally steal money from child
 
 If you’re feeling especially cynical, you can see similarities between the health insurance monster and the backwards economy of the USSR, where ball bearings were manufactured and sent to refineries where they were melted down to make more ball bearings. Such schemes were designed to ensure full employment. Obamacare seeks full health insurance coverage with the same disregard for personal autonomy and market will.
 
-Like in the USSR, we are faced with a similar challenge in addresing this monster. Even if Russians were melting down steel balls to make more steel balls, they depended on their workplace for their livlihoods, educations, community, retirement plans, etc. Ripping that away from people was a tulmultuous event, and remains one of the main political challenges today in [former socialist countries](https://www.express.co.uk/news/world/701026/russians-life-better-soviet-union-ussr-sixty-four-percent). America faces the same societal inertia when it comes to health insurance: “We’re talking about changing flows of money on just a huge scale… There’s no precedent in American history that compares to this,” [said one Princeton sociology professor](https://www.nytimes.com/2019/03/23/health/private-health-insurance-medicare-for-all-bernie-sanders.html) who studies health insurance.
+Like in the USSR, we are faced with a similar challenge in addresing this monster. Even if Russians were melting down steel balls to make more steel balls, they depended on their workplace for their livelihoods, educations, community, retirement plans, etc. Ripping that away from people was a tulmultuous event, and remains one of the main political challenges today in [former socialist countries](https://www.express.co.uk/news/world/701026/russians-life-better-soviet-union-ussr-sixty-four-percent). America faces the same societal inertia when it comes to health insurance: “We’re talking about changing flows of money on just a huge scale… There’s no precedent in American history that compares to this,” [said one Princeton sociology professor](https://www.nytimes.com/2019/03/23/health/private-health-insurance-medicare-for-all-bernie-sanders.html) who studies health insurance.
 
 Despite the pejorative taglines from progressive politicians, the current system is not an example of wild markets run amok. It is the result of numerous interventions into the labor and healthcare markets, all done with the intention of raising wages and making healthcare more “accessible” and affordable. These interventions began after World War II, where employers used benefits to circumvent anti-inflationary wage freezes from the Roosevelt administration. 
 
