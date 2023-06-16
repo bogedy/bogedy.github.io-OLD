@@ -432,7 +432,7 @@ print(f"f ESS: {f_ess_gibbs}\nr ESS: {r_ess_gibbs}")
     r ESS: 7592.132131705443
 
 
-Our Gibbs sampler was a bit of a mixed bag here. Interestingly, the devleopers of PyMC say that Gibbs sampling tools are a [low priority](https://github.com/pymc-devs/pymc/issues/736) for them compared to Hamiltonian methods like NUTS. Typically, Gibbs yields fewer effective samples for second. Blog post coming soon on that too.
+Our Gibbs sampler was a bit of a mixed bag here. Interestingly, the devleopers of PyMC say that Gibbs sampling tools are a [low priority](https://github.com/pymc-devs/pymc/issues/736) for them compared to Hamiltonian methods like NUTS. Typically, Gibbs yields fewer effective samples per second. Blog post coming soon on that too.
 
 But notice that the NUTS sampler yielded a much higher ESS than the Metropolis sampler. Let's compare the effective samples *per second* for each of our samplers:
 
@@ -446,4 +446,4 @@ print(f"Metropolis f ESS/sec: {f_ess/3}\nNuts f ESS/sec: {f_ess_gibbs/5}\nGibbs 
     Gibbs f ESS/sec: 2070.7368432954504
 
 
-Our Gibbs sampler performed very well here, but it's interesting to note that even though the NUTS is slower and more complicated than the Metropolis sampler, it yielded a higher number of effective samples per second.
+Our Gibbs sampler performed very well here, but it's interesting to note that even though the NUTS sampler is slower and more complicated than the Metropolis sampler, it yielded a higher number of effective samples per second.
