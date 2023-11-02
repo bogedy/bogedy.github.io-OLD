@@ -14,4 +14,4 @@ I am a math graduate from Haverford College (2020) and an NLP data scientist con
 
 My main areas of interest are statistics, data science, political economy and China. I also enjoy biking and cooking in my spare time. I speak Spanish, Mandarin Chinese and Hebrew.
 
-For my senior thesis I wrote an expository paper on Markov Chain Monte Carlo Simulation where I explained the theory, basic concepts and worked through contrastive examples.
+For my [senior thesis](https://github.com/bogedy/mcmc_thesis) I wrote an expository paper on Markov Chain Monte Carlo Simulation where I explained the theory, basic concepts and worked through contrastive examples.
