@@ -1,0 +1,14 @@
+
+.bold {
+	color: #e060a0;
+	font-weight: bold;
+}
+
+span.katex {
+	font-size: inherit;
+}
+
+::-webkit-scrollbar { 
+  width: 0 !important;
+  display: none; 
+}

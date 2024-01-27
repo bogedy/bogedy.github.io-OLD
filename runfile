@@ -1,0 +1,5 @@
+#!/bin/bash
+
+function new {
+	hugo new content blog/$1.md
+}

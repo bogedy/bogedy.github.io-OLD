@@ -1,0 +1,5 @@
+{{ define "parent" }}
+  {{ with .Parent }}{{ template "parent" . }}<a href={{ .RelPermalink }}>{{ .Title }}</a> / {{ end }}
+{{ end }}
+
+{{ template "parent" . }}
